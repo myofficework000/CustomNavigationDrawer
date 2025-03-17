@@ -1,4 +1,4 @@
-package com.dongze.drawerpushcontent
+package com.code4galaxy.drawerpushcontent
 
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.tween
@@ -11,11 +11,19 @@ import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.util.lerp
 import kotlin.math.abs
 import kotlin.math.roundToInt
-import androidx.compose.ui.util.lerp
 
-
+/**
+ * A Composable function that provides a drawer container with swipe gestures.
+ *
+ * @param modifier Modifier for customizing the layout.
+ * @param isDrawerOpened Boolean flag to indicate if the drawer is open or closed.
+ * @param drawerWidth The width of the drawer in Dp.
+ * @param onSwipe Callback function invoked when a swipe gesture is detected.
+ * @param content Composable function representing the main content.
+ */
 @Composable
 fun DrawerContainer(
     modifier: Modifier = Modifier,
@@ -27,7 +35,8 @@ fun DrawerContainer(
     val transition = updateTransition(targetState = isDrawerOpened, label = "")
 
     val collapseFraction =
-        transition.animateFloat(transitionSpec = { tween(durationMillis = 400) },
+        transition.animateFloat(
+            transitionSpec = { tween(durationMillis = 400) },
             label = ""
         ) { state ->
             when (state) {

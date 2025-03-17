@@ -1,4 +1,4 @@
-package com.dongze.drawerpushcontent
+package com.code4galaxy.drawerpushcontent
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.dongze.drawerpushcontent", appContext.packageName)
+        assertEquals("com.code4galaxy.drawerpushcontent", appContext.packageName)
     }
 }

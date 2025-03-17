@@ -1,4 +1,4 @@
-package com.dongze.drawerpushcontent.ui.theme
+package com.code4galaxy.drawerpushcontent.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

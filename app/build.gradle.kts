@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dongze.drawerpushcontent"
+    namespace = "com.code4galaxy.drawerpushcontent"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.dongze.drawerpushcontent"
+        applicationId = "com.code4galaxy.drawerpushcontent"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

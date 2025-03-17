@@ -1,4 +1,4 @@
-package com.dongze.drawerpushcontent
+package com.code4galaxy.drawerpushcontent
 
 import org.junit.Test
 
