@@ -1,8 +1,8 @@
-# 🚀 Jetpack Compose - Drawer Pushing Content
+# Jetpack Compose - Drawer Pushing Content
 
 Jetpack Compose has transformed Android UI development by providing a **declarative approach** to building interfaces. In this project, we implement a **custom drawer layout** that **pushes content** instead of overlaying it.
 
-## 📌 Features
+## Features
 ✅ Smooth **push animation** for the drawer  
 ✅ Custom **gesture handling** for swipes  
 ✅ Built with **Jetpack Compose Layout**  
@@ -10,10 +10,10 @@ Jetpack Compose has transformed Android UI development by providing a **declarat
 
 ## 🎬 Demo
 
-### 📌 Phase 1  
+### Phase 1  
 <img src="https://github.com/user-attachments/assets/8909436f-b308-4056-bd6b-003858438351" width="400" alt="Drawer Animation Phase 1"/>
 
-### 📌 Phase 2  
+### Phase 2  
 https://github.com/user-attachments/assets/e5d30d6d-4bec-4b34-9716-2764430d5ac6
 
 ---
